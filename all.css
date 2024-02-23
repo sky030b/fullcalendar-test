@@ -1,0 +1,31 @@
+.calendar-warp {
+    border-radius: 15px;
+}
+
+.fc .fc-daygrid-day-top {
+    flex-direction: row
+}
+
+.fc .fc-daygrid-day-number,
+.fc .fc-col-header-cell-cushion {
+    text-decoration: none;
+    color: #6c757d;
+}
+
+.fc-event-title-container {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.fc .fc-daygrid-body-natural .fc-daygrid-day-events {
+    margin-bottom: 0.5rem;
+}
+
+.fc-daygrid-day-frame {
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
+}
+
+.fc-daygrid-event-harness {
+    margin-bottom: 0.2rem;
+}

@@ -1,9 +1,21 @@
-.calendar-warp {
-    border-radius: 15px;
-}
-
 .fc .fc-daygrid-day-top {
     flex-direction: row
+}
+
+.fc-header-toolbar {
+    width: auto;
+
+    .fc-toolbar-chunk div {
+        display: flex;
+        /* gap: 1rem; */
+        align-items: center;
+    }
+
+    .fc-toolbar-title {
+        display: inline-block;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
 }
 
 .fc .fc-daygrid-day-number,
@@ -28,4 +40,18 @@
 
 .fc-daygrid-event-harness {
     margin-bottom: 0.2rem;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.custom-event {
+    height: 60px;
+    /* 根據需要設置具體的高度值 */
 }
